@@ -32,6 +32,6 @@ print(".......................................................");
   String password="password";
 
   print( username == "abc" && password=="abc123");
-  print( username == "abc" || password=="abc123");
-  print( username == "abc" && password=="abc123");
+  print( username == "abc" || password=="password");
+  print( username == "admin" && password=="password");
   }

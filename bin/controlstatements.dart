@@ -1,10 +1,19 @@
+
+
+
+
 void main()
 {
+
   print("Hi user");
-int age=29;
-   if(age>=18)
-     {
-       print("you are eligible");
-     }
+  String username="rahul";
+  String password="rahul123";
+  if(username=="rahul" && password=="rahul123")
+  {
+    print("login successful");
+  }
+  else{
+    print("Not successful");
+  }
   print("Thank you");
 }

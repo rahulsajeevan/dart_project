@@ -1,22 +1,23 @@
 
-void main() {
-  print("Hi user");
-  String username = "rahul";
-  String password = "rahul123";
-  int OTP = 2345;
-  if (username == "rahul" && password == "rahul123") {
-    print("login successful");
-    if (OTP == 2345) {
-      print("OTP verifiyed login successfully");
+void main()
+{
+  int size=7;
+  if(size==5)
+    {
+      print("shoe size is 5");
     }
-    else
-      {
-        print("OIP verification failed");
-      }
+  else if(size==6)
+  {
+    print("shoe size is 6");
+  }
+  else if(size==7)
+    {
+      print("shoe size is 7");
     }
-    else {
-      print("Not successful");
+  else
+    {
+      print("shoe size is not available");
     }
-    print("Thank you");
+
   }
 
